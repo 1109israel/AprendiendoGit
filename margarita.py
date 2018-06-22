@@ -1,2 +1,1 @@
-print('Hola mundo ')
-print('Mago')
+print('Hola c:')
