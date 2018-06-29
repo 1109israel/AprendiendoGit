@@ -1,5 +1,5 @@
 var = open("Serie_fibonacci.txt","a")
-def fibonacci_or(limite):
+def fibonacci_uno(limite):
     a= 0
     b = 1
     c = 0
@@ -17,7 +17,7 @@ def fibonacci_or(limite):
         var.write('%s'%c+"\t")
     var.write("\n")
 def fibonacci(a,b):
-    limite = int(input("\nIngresa el limite para la serie: "))
+    limite = int(input("Ingresa el limite para la serie: "))
     c = 0
     contador = 2
     print(a,b,end = ' ')
@@ -40,7 +40,7 @@ while opcion != 0:
     opcion = input("opcion deseada: ")
     if opcion == '1':
         limite = int(input("Ingresa el limite deseado para la serie: "))
-        fibonacci_or(limite)
+        fibonacci_uno(limite)
         print("\n")
         
     elif opcion == '2':
