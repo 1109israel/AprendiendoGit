@@ -1,5 +1,3 @@
-print('Bienvenido a FizzBuzz \n')
-print('Lista de números del 1 al 100 \n')
 num=1
 while num<=100:
     if num %15==0:
